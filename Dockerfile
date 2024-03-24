@@ -4,7 +4,7 @@ FROM ubuntu:18.04
 #Created a app directory for graphspace
 WORKDIR /app
 
-#Installs required & dev packages to smoothly install graphspace rquirements on ubuntu and mac as well   
+#Installs required & dev packages to smoothly install graphspace requirements on ubuntu and mac as well   
 RUN apt-get -y update && apt-get install -y \
     npm \ 
     git \
